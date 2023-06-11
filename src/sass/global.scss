@@ -1,0 +1,16 @@
+@use "./reset.scss";
+@use "./variables";
+
+.dark {
+  color-scheme: dark;
+  background-color: black;
+}
+
+.light {
+  color-scheme: light;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
