@@ -1,0 +1,20 @@
+.nav__categories {
+  display: flex;
+}
+
+.nav__buttons {
+  button:hover {
+    cursor: pointer !important;
+  }
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
+
+  transition: 500ms;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
